@@ -1,0 +1,388 @@
+* {
+	margin: 0;
+	padding: 0
+}
+a {
+	text-decoration: none;
+	/* 清除A标签下划线 */
+}
+li {
+	list-style: none;
+}
+input {
+	border: 0 none;
+	outline: 0 none;
+}
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+strong {
+	font-weight: normal;
+}
+i,
+em {
+	font-style: normal;
+}
+.tonglan {
+	height: 80px;
+	/* background-color: pink; */
+	
+}
+/* 顶部通栏布局 */
+.w {
+	width: 1240px;
+	margin: 0 auto;
+	/* 版心设置 */
+}
+.top {
+	height: 80px;
+	/* background-color: green; */
+	position: relative;
+	
+	/* 最上面一层的数值 */
+}
+/* 顶部开始 */
+.logo h1 {
+	width: 115px;
+	height: 20px;
+	float: left;
+	background-image: url("logo.png");
+	position: absolute;
+	top: 25px;
+}
+.logo a {
+	display: block;
+	width: 115px;
+	height: 20px;
+
+}
+.logo {
+	text-indent: -9999px;
+}
+.top-left li {
+	float: left;
+	margin-left: 30px;
+}
+.tonglan .top .top-left {
+	position: absolute;
+	left: 434px;
+	top: 25px;
+}
+.top-left li a {
+	font-size: 14px;
+}
+.tonglan .top .top-right a {
+	width: 24px;
+	height: 24px;
+	background: url("icon.png") -11px -11px;
+	position: absolute;
+	right: 75px;
+	bottom: 28px;
+	border-radius: 12px;
+}
+/* 第一块结束 */
+/* 第二块开始 */
+.two {
+	height: 480px;
+	background-color: #7086af;
+	overflow: hidden;
+	position: relative;
+}
+.two .two-centent {
+	height: 480px;
+	background: url("banner.png");
+	position: relative;
+}
+.two .two-centent .two-table {
+	width: 244px;
+	height: 480px;
+	background-color: #dce0e8;
+	overflow: hidden;
+}
+.two .two-centent .two-table li {
+	font-size: 14px;
+	height: 58px;
+	line-height: 58px;
+	padding-left: 30px;
+}
+.two .two-centent .two-table li:nth-child(1) {
+	margin-top: 12px;
+}
+.two .two-centent .two-table li:hover {
+	background-color: rgba(255, 255, 255, .5)
+}
+.two .two-centent .two-xiao {
+	position: absolute;
+	left: 254px;
+	top: 228px;
+}
+.two .two-centent .two-da {
+	position: absolute;
+	right: 0px;
+	top: 228px;
+}
+.two .two-centent .two-dian {
+	position: absolute;
+	bottom: 13px;
+	left: 571px;
+}
+.two .two-centent .two-dian p {
+	width: 10px;
+	height: 10px;
+	border: solid 1px #bdbdbd;
+	border-radius: 6px;
+	float: left;
+	margin-left: 10px;
+}
+.two .two-centent .two-dian p:nth-child(5) {
+	background-color: #00c3f5;
+	border: none;
+	width: 11px;
+	height: 11px;
+}
+/* 第二部分结束 */
+/* 第三部分开始 */
+.three {
+	height: 140px;
+	position: relative;
+	margin-top: 6px;
+}
+.three .three-one {
+	width: 244px;
+	height: 140px;
+	/* background-color: pink; */
+	float: left;
+}
+.three .three-one li {
+	width: 122px;
+	height: 70px;
+	float: left;
+}
+.three .three-one p {
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+	text-align: center;
+}
+.three .three-one i {
+	width: 30px;
+	height: 30px;
+	background: url("sq.png");
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.three .three-one li:nth-child(2) i {
+	background: url("sq.png") 0px -42px;
+}
+.three .three-one li:nth-child(3) i {
+	background: url("sq.png") 0px -80px;
+}
+.three .three-one li:nth-child(4) i {
+	background: url("sq.png") 0px -121px;
+}
+.three .three-two {
+	float: left;
+	margin-left: 5px;
+	width: 244px;
+	height: 140px;
+}
+.three .three-three {
+	float: left;
+	margin-left: 5px;
+	width: 244px;
+	height: 140px;
+}
+.three .three-si{
+	float: left;
+	margin-left: 5px;
+	width: 244px;
+	height: 140px;
+}
+.three .three-wu{
+	float: left;
+	margin-left: 5px;
+	width: 244px;
+	height: 140px;
+}
+
+
+.three .three-two i {
+	width: 244px;
+	height: 140px;
+	background: url("pro7plus.jpg");
+	background-size: 100%;
+	display: block;
+}
+.three .three-three i {
+	width: 244px;
+	height: 140px;
+	background: url("mei5s.jpg");
+	background-size: 100%;
+	display: block;
+}
+.three .three-si i {
+	width: 244px;
+	height: 140px;
+	background: url("ep51.png");
+	background-size: 100%;
+	display: block;
+}
+.three .three-wu i {
+	width: 244px;
+	height: 140px;
+	background: url("breakhabit.png");
+	background-size: 100%;
+	display: block;
+}
+.four {
+	height: 93px;
+	/* background-color: pink; */
+	position: relative;
+}
+.four .left {
+	font-size: 25px;
+	top: 45px;
+	position: absolute;
+}
+.four .four-da {
+	width: 28px;
+	height: 28px;
+	border: solid 1px #bdbdbd;
+	position: absolute;
+	right: 33px;
+	top: 40px;
+	text-align: center;
+}
+.four .four-xiao {
+	width: 28px;
+	height: 28px;
+	border: solid 1px #efefef;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	text-align: center;
+}
+.five {
+	height: 338px;
+	/* background-color: pink; */
+}
+.five .five-table li {
+	width: 246px;
+	height: 338px;
+	/* border-top: solid 1px #efefef;
+	border-right: solid 1px #efefef;
+	border-bottom: solid 1px #efefef; */
+	border: solid 1px #efefef;
+	float: left;
+}
+.five .five-table i {
+	width: 247px;
+	height: 260px;
+	display: block;
+	background: url("dianyuanshipei.png");
+	background-size: 100%;
+}
+.five .five-table p {
+	font-size: 16px;
+	text-align: center;
+}
+.five .five-table .pp {
+	font-size: 14px;
+	color: #999999;
+	text-align: center;
+	margin-top: 8px;
+}
+.five .five-table .ppp {
+	font-size: 14px;
+	color: red;
+	text-align: center;
+	margin-top: 10px;
+
+}
+.five .five-table li:nth-child(2) i {
+	background: url("meizushouhuan.png");
+	background-size: 100%;
+}
+.five .five-table li:nth-child(3) i {
+	background: url("lvxingshoudai.png");
+	background-size: 100%;
+}
+.five .five-table li:nth-child(4) i {
+	background: url("lanyaerji.png");
+	background-size: 100%;
+}
+.five .five-table li:nth-child(5) i {
+	background: url("erji.png");
+	background-size: 100%;
+}
+.six {
+	height: 120px;
+	background-image: url("meiX.jpg");
+	margin-top: 40px;
+}
+.six a {
+	height: 140px;
+	width: 1240px;
+	display: block;
+}
+.seven {
+	height: 111px;
+	/* background-color: pink; */
+	position: relative;
+}
+
+.seven .seven-top .xian {
+	height: 18px;
+	border: solid 1px red;
+}
+.seven .seven-top li {
+	float: left;
+	margin-right: 15px;
+	margin-top: 25px;
+}
+.seven .seven-bottom p {
+	margin-top: 50px;
+}
+.seven .ziti {
+	float: right;
+	margin-bottom: 34px;
+
+}
+.seven .ziti .icon-qqkongjian {
+	font-size: 18px;
+	position: absolute;
+	bottom: 34px;
+	right: 0px;
+}
+.seven .ziti .xian1 {
+	height: 18px;
+	border: solid 1px green;
+	position: absolute;
+	right: 27px;
+	bottom: 34px;
+}
+.seven .ziti .icon-icon- {
+	font-size: 18px;
+	position: absolute;
+	bottom: 34px;
+	right: 43px;
+}
+.seven .ziti .xian2 {
+	height: 18px;
+	border: solid 1px green;
+	position: absolute;
+	right: 74px;
+	bottom: 34px;
+}
+.seven .ziti .icon-weibo {
+	font-size: 18px;
+	position: absolute;
+	bottom: 34px;
+	right: 82px;
+}
